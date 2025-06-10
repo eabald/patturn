@@ -1,4 +1,4 @@
-name: inb-poc
+name: patturn
 channels:
   - conda-forge
   - defaults
