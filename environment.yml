@@ -1,0 +1,26 @@
+name: inb-poc
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.8  # remove if you're using CPU only
+  - numpy
+  - pandas
+  - scikit-learn
+  - umap-learn
+  - tqdm
+  - pillow
+  - matplotlib
+  - jupyter
+  - pip:
+    - opencv-python
+    - ftfy
+    - regex
+    - git+https://github.com/openai/CLIP.git
