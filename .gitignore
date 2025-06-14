@@ -194,4 +194,11 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-synthetic_motifs
+data/*
+!data/.gitkeep
+
+metadata/*
+!metadata/.gitkeep
+
+output/*
+!output/.gitkeep

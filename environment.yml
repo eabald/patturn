@@ -19,6 +19,8 @@ dependencies:
   - pillow
   - matplotlib
   - jupyter
+  - imageio
+  - imgaug
   - pip:
     - opencv-python
     - ftfy

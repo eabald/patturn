@@ -48,7 +48,6 @@ patturn/
 ├── data/                  # Raw or synthetic image data
 ├── metadata/              # Metadata CSVs
 ├── notebooks/             # Jupyter notebooks (pipeline, experiments)
-├── src/                   # Core code modules (processing, plotting, etc.)
 ├── outputs/               # Visualizations, clustered CSVs
 ├── environment.yml        # Conda environment spec
 └── README.md
